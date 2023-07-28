@@ -1,3 +1,18 @@
 /* 
     General Styles
 */
+ul li{
+    border: 2px solid black;
+    height: 30px;
+    width: 280px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: bold;
+    -webkit-text-stroke: 0.3px;
+    -webkit-text-stroke-color: black;
+    color:gold;
+}
+
