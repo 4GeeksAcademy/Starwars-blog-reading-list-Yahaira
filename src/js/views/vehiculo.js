@@ -16,7 +16,7 @@ export const Vehiculo = props => {
  
 
 	return (
-		<div className="card mb-3 w-200 border-warning border border-3">
+		<div className="card mb-3 w-200 border-dark border border-3">
   <div className="row g-0">
     <div className="col-md-4">
       <img src={"https://starwars-visualguide.com/assets/img/vehicles/"+ params.theid+ ".jpg"} className="img-fluid rounded-start" alt="..."/>
@@ -40,7 +40,7 @@ export const Vehiculo = props => {
 	        <th scope="col">Cargo Capacity</th>
         </tr>
       </thead>
-      <tbody className="table-warning text-danger">
+      <tbody className="table-warning text-dark">
         <tr>
           <th scope="row"></th>
           <td>{store.informacionVehiculo.properties?.name}</td>
