@@ -12,15 +12,15 @@ const{store}= useContext(Context)
 return(
 	<div className="row text-center">
     <div className="col-lg-4 col-md-4" >
-		<h1 className="fw-bold text-decoration-underline">PERSONAJES</h1>
+		<h1 className="fst-italic text-decoration-none">PERSONAJE</h1>
 		{store.personajes.map((item)=> <Card key={item.uid} nombre={item.name} id={item.uid} /> )}
     </div>
 	<div className="col-lg-4 col-md-4" >
-	<h1 className="fw-bold text-decoration-underline">VEHICULOS</h1>
+	<h1 className="fst-italic text-decoration-none">VEHICULO</h1>
 	{store.vehiculos.map((item)=> <CardVehiculos key={item.uid} nombreVehiculo={item.name} idVehiculo={item.uid}/>)}
  	</div>
 	<div className="col-lg-4 col-md-4" >
-	<h1 className="fw-bold text-decoration-underline">PLANETAS</h1>
+	<h1 className="fst-italic text-decoration-none">PLANETA</h1>
 	{store.planetas.map((item)=> <CardPlanetas key={item.uid} nombrePlaneta={item.name} idPlaneta={item.uid}/>)}
  	</div>
 	</div>

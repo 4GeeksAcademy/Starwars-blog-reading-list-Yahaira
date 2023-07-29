@@ -18,20 +18,21 @@ export const Planeta = props => {
 
 
 	return (
-		<div className="card mb-3 w-200 border-warning border border-3">
+		<div className="card mb-3 w-200 border-dark border border-3">
   <div className="row g-0">
     <div className="col-md-4">
       <img src={"https://starwars-visualguide.com/assets/img/planets/" + params.theid+ ".jpg"} className="img-fluid rounded-start" alt="..."/>
     </div>
     <div className="col-md-7">
       <div className="card-body">
-        <h1 className="card-title fw-bold text-decoration-underline lh-base text-center">{store.informacionPlaneta.properties?.name}</h1>
-        <p className="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h1 className="card-title fst-italic text-decoration-none lh-base text-center">{store.informacionPlaneta.properties?.name}</h1>
+        <p className="card-text text-justify">This is a lead-in to additional content
+        .This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>
   </div>
 		<table className="table table-borderless ">
-      <thead className="table-danger text-danger">
+      <thead className="table-dark text-white">
         <tr>
           <th scope="col"></th>
           <th scope="col">Name</th>
@@ -42,7 +43,7 @@ export const Planeta = props => {
 	        <th scope="col">Climate</th>
         </tr>
       </thead>
-      <tbody className="table-warning text-danger">
+      <tbody className="table-warning text-dark">
         <tr>
           <th scope="row"></th>
           <td>{store.informacionPlaneta.properties?.name}</td>
