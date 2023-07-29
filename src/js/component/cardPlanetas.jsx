@@ -10,7 +10,7 @@ const CardPlanetas   = (props) =>{
     return(
     
         <div className="col-md card d-flex content-justify m-2 border-dark border border-3">
-            <img src={"https://starwars-visualguide.com/assets/img/planets/"+ props.idPlaneta +".jpg"} className="card-img-top"height="250px" width="150px" alt="..."/>
+            <img src={"https://starwars-visualguide.com/assets/img/planets/"+ props.idPlaneta +".jpg"} className="card-img-top"height="250px" width="150px" alt="Planeta"/>
             <div className="card-body">
                 <h5 className="card-title text-start fw-bold">{props.nombrePlaneta}</h5>
                 <p className="card-text text-start"></p>

@@ -11,7 +11,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 			listaFavoritos: [],
 		},
 		actions: {
-			// Use getActions to call a function within a fuction
 		
 			obtenerPersonajes: () => {
 				fetch("https://www.swapi.tech/api/people/",{
