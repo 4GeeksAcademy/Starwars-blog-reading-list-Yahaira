@@ -19,7 +19,7 @@ console.log(store.informacionPersonaje.properties?.name);
 
 
 	return (
-		<div className="card mb-3 w-200  border-dark border border-3">
+		<div className="card mb-3 w-200 ">
   <div className="row g-0">
     <div className="col-md-4">
       <img src={"https://starwars-visualguide.com/assets/img/characters/" + params.theid+ ".jpg"} className="img-fluid rounded-start" alt="..."/>
@@ -32,7 +32,7 @@ console.log(store.informacionPersonaje.properties?.name);
     </div>
   </div>
 		<table className="table table-borderless ">
-      <thead className="table-danger text-danger">
+      <thead className="table-dark text-white">
         <tr>
           <th scope="col"></th>
           <th scope="col">Name</th>
@@ -43,7 +43,7 @@ console.log(store.informacionPersonaje.properties?.name);
 	        <th scope="col">Mass</th>
         </tr>
       </thead>
-      <tbody className="table-warning text-danger">
+      <tbody className="table-warning text-dark">
         <tr>
           <th scope="row"></th>
           <td>{store.informacionPersonaje.properties?.name}</td>
