@@ -18,7 +18,7 @@ export const Planeta = props => {
 
 
 	return (
-		<div className="card mb-3 w-200 border-dark border border-3">
+		<div className="card mb-3 w-200 border-dark border border-3 ">
   <div className="row g-0">
     <div className="col-md-4">
       <img src={"https://starwars-visualguide.com/assets/img/planets/" + params.theid+ ".jpg"} className="img-fluid rounded-start" alt="..."/>

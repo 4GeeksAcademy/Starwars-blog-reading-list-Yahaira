@@ -10,7 +10,7 @@ const Card = (props) =>{
    
     return(
     
-        <div className="col-md card d-flex content-justify m-2 border-dark border border-3">
+        <div className="col-md card d-flex content-justify m-2 border-dark border border-3 ">
             <img src={"https://starwars-visualguide.com/assets/img/characters/" + props.id+ ".jpg"} className="card-img-top"height="250px" width="150px" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title text-start fw-bold">{props.nombre}</h5>
